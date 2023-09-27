@@ -1,4 +1,6 @@
 package lk.ijse.gdse.service;
 
-public interface TechLeadService {
+import lk.ijse.gdse.dto.TechLeadDTO;
+
+public interface TechLeadService extends SuperService<TechLeadDTO,String>{
 }

@@ -1,4 +1,6 @@
 package lk.ijse.gdse.repo;
 
-public class ProjectRepo {
+import lk.ijse.gdse.entity.Project;
+
+public class ProjectRepo extends JpaRepository<Project, String>{
 }

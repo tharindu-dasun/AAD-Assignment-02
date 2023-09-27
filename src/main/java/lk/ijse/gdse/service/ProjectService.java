@@ -1,4 +1,6 @@
 package lk.ijse.gdse.service;
 
-public interface ProjectService {
+import lk.ijse.gdse.dto.ProjectDTO;
+
+public interface ProjectService extends SuperService<ProjectDTO,String>{
 }
